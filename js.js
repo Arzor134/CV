@@ -1,7 +1,15 @@
-/* Это объявление переменной, мы наши кнопку по тегу */
-const button = document.querySelector('button');
+function playMusic() {https://music.yandex.ru/users/yamusic-my2023/playlists/197299948
+}
 
-/* Тут на кнопку навешиваем обрабочик, который ждёт клика и тогда запустит логику */
+const button = document.querySelector('button');
+// Задаем функцию, которая будет вызываться при клике на кнопку
 button.addEventListener('click', function() {
-	alert('А хорошо жить, еще лучше!')
-})
+  alert('А хорошо жить, еще лучше!');
+});
+
+
+const button = document.querySelector('button');
+// Задаем функцию, которая будет вызываться при клике на кнопку
+button.addEventListener('click', function() {
+  alert('А хорошо жить, еще лучше!');
+});
